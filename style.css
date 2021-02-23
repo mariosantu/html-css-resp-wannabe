@@ -74,3 +74,21 @@ img {
 
 /* MEDIA QUERY */
 
+@media screen and (max-width: 420px) {
+  .row {
+    width: 100%;
+  }
+
+#lezioni .row>.left,
+#lezioni .row>.right {
+  float: none;
+  width: 100%;
+}
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: none;
+  width: 100%;
+}
+}
